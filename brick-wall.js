@@ -1,4 +1,4 @@
-angular.module('photographer').directive('brickWall', function(configService, $compile) {
+angular.module('ImageBrickWall').directive('brickWall', function(configService, $compile) {
 	return {
 		restrict: 'E',
 		scope: {
